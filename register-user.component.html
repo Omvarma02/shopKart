@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="./register-user.component.css" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+ <!-- Custom JavaScript -->
+
+ <script src="./js/index.js"></script>
+ <title> Register User</title>
+</head>
+
+<body>
+
+<div  class="container">
+
+<div class="card bg-light">
+<article class="card-body mx-auto" style="max-width: 800px; height:600px;">
+	<h4 class="card-title mt-3 text-center">Create Account</h4>
+	<p class="text-center">Get started with your free account</p>
+	
+
+	<form  >
+
+	<div  class="form-group input-group ">
+		<div class="input-group-prepend ">
+		    <span class="input-group-text "> <em class="fa fa-user"></em> </span>
+		 </div>
+        <input name="" class="form-control " placeholder="Full name" #name type="text">
+    </div> 
+    
+    <!-- form-group// -->
+    <div class="form-group input-group ">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <em class="fa fa-envelope"></em> </span>
+		 </div>
+        <input name="" class="form-control" placeholder="Email address"  #mail type="email">
+    </div> 
+    
+    <!-- form-group// -->
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <em class="fa fa-phone"></em> </span>
+		</div>
+    	<input name="" class="form-control" placeholder="Phone number" #mobileno type="text">
+    </div> 
+    
+    <!-- form-group// -->
+    <div class="form-group input-group ">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <em class="fa fa-lock"></em> </span>
+		</div>
+        <input class="form-control" placeholder="Create password"  #pass type="password">
+    </div>
+    
+    <!-- form-group// -->
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <em class="fa fa-lock"></em> </span>
+		</div>
+        <input class="form-control" placeholder="Repeat password" type="password">
+    </div>
+    
+    <!-- form-group// -->                                      
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block" > Create Account  </button>
+    </div>
+    
+    <!-- form-group// -->      
+    <p class="text-center">Have an account? <a href="./login.html"  routerLinkActive="active" routerLink="Signin" >Log In   </a> <br>
+   <a href="./index.html" > Home page</a>    </p>
+
+</form>
+</article>
+</div> 
+</div>
+  <!-- Footer -->
+  <footer  id="footer" class="section footer">
+    <div  class="container">
+      <div class="footer__top">
+       
+        <div class="footer-top__box">
+          <h3>INFORMATION</h3>
+          <h5 >About Us</a>
+          <h5 >Privacy Policy</a>
+          <h5 >Terms & Conditions</a>
+          <h5>Contact Us</a>
+          <h5 >Site Map</a>
+        </div>
+       
+        <div class="footer-top__box">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-location"></use>
+              </svg>
+            </span>
+            <span>INDIA</span>
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-envelop"></use>
+              </svg>
+            </span>
+            help@gmail.com
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+            </span>
+            9912345678
+          </div>
+      
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer-bottom__box">
+
+      </div>
+      <div class="footer-bottom__box">
+
+      </div>
+    </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

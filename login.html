@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="./register-user.component.css" />
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+ <script src="./js/index.js"></script>
+ <title> User Login</title>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card bg-light">
+    <article class="card-body mx-auto" style="max-width: 300px;">
+        <h2 class="card-title mt-3 text-center">LOGIN PAGE</h2>
+        <p class="text-center">Enter Correct Credentials</p>
+        
+        <form>
+        <div class="form-group input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> <em class="fa fa-envelope"></em> </span>
+             </div>
+            <input name="" class="form-control" placeholder="Email address" required #mail type="email">
+        </div> <!-- form-group// -->
+        
+        <div class="form-group input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> <em class="fa fa-lock"></em> </span>
+            </div>
+            <input class="form-control" placeholder="Create password" required #pass type="password">
+        </div>                                       
+        <div class="form-group">
+            <button type="submit" onclick="login()" class="btn btn-primary btn-block" > Log In </button>
+        </div> <!-- form-group// -->      
+       <a href="./index.html"  class="text-center" routerLinkActive="active" routerLink="Signin" >Home page</a> </p>                                                                 
+    </form>
+    </article>
+    </div> 
+    
+  </div>
+
+    
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer__top">
+       
+        <div class="footer-top__box">
+          <h3>INFORMATION</h3>
+          <h5 >About Us</a>
+          <h5 >Privacy Policy</a>
+          <h5 >Terms & Conditions</a>
+          <h5>Contact Us</a>
+          <h5 >Site Map</a>
+        </div>
+        
+        <div class="footer-top__box">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-location"></use>
+              </svg>
+            </span>
+             INDIA
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-envelop"></use>
+              </svg>
+            </span>
+            help@gmail.com
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+            </span>
+            9912345678
+          </div>
+      
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer-bottom__box">
+
+      </div>
+      <div class="footer-bottom__box">
+
+      </div>
+    </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
